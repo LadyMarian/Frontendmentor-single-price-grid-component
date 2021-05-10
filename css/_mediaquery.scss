@@ -1,0 +1,42 @@
+@media (min-width:  700px) {
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.15rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .header__text {
+        margin: 0 0 .5rem 0;
+    }
+
+    .container {
+        width: 39rem;
+    }
+    
+    .main {
+        flex-direction: row;
+
+        &__btn {
+            margin-top: .525rem;
+        }
+        
+        &__list__item {
+            font-size: .9rem;
+            line-height: 1.4;
+        }
+    }
+
+    .col {
+        padding: 2rem 2.125rem;
+        &__2, &__3 {
+            width: 50%;
+        }
+    }
+}

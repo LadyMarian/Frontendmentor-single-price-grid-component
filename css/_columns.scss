@@ -1,0 +1,94 @@
+// COLUMNS
+.col {
+    padding: 1.5rem 1.875rem;
+    display: flex;
+    flex-direction: column;
+    
+    &__1 {
+        background-color: white;
+    }
+    &__2 {
+        background-color: $Cyan;
+    }
+    &__3 {
+        background-color: $LightCyan;
+    }
+}
+
+.header {
+    &__title {
+        margin-top: 0;
+        color: $Cyan;
+    }
+
+    &__subtitle {
+        color: $BrightYellow;
+    }
+
+    &__text {
+        margin-bottom: .25rem;
+        color: $GrayishBlue;
+    }
+}
+
+//MAIN
+.main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    &__title {
+        margin-top: .25rem;
+    }
+
+    &__price {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        &__number {
+            font-size: 1.75rem;
+            font-weight: bold;
+            margin: 0 .5rem 0 0;
+        }
+
+        &__text {
+            opacity: .5;
+            margin: 0;
+        }
+    }
+
+    &__btn {
+        background-color: $BrightYellow;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        font-size: .9rem;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: .5rem .75rem 1rem 0 rgba(0,0,0,.2);
+        transition: all .5s ease-in-out;
+
+        &:hover {
+            color: black;
+            opacity: .7;
+            cursor: pointer;
+        }
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        &__item {
+            opacity: .9;
+        }
+    }
+    
+}
+
+
